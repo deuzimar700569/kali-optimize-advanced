@@ -1,0 +1,44 @@
+# Logs
+*.log
+logs/
+/var/log/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.swp
+.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backups
+*.bak
+*.backup
+backups/
+
+# Config with sensitive data
+config/local.conf
+config/*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node
+node_modules/
+npm-debug.log
+
+# Environment
+.env
+.env.local
